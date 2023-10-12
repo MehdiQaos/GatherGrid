@@ -10,23 +10,23 @@ import lombok.Setter;
 @Entity
 @Table(name = "users")
 public class User {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Setter
-    @Column(name = "username")
+
+    @Setter @Column(name = "username")
     private String userName;
-    @Setter
-    @Column(name = "email")
+
+    @Setter @Column(name = "email")
     private String email;
-    @Setter
-    @Column(name = "first_name")
+
+    @Setter @Column(name = "first_name")
     private String firstName;
-    @Setter
-    @Column(name = "last_name")
+
+    @Setter @Column(name = "last_name")
     private String lastName;
-    @Setter
-    @Column(name = "password")
+
+    @Setter @Column(name = "password")
     private String password;
 
     public User(String userName, String email, String firstName, String lastName, String password) {

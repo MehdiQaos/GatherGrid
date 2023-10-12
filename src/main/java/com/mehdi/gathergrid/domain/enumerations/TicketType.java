@@ -1,4 +1,4 @@
-package com.mehdi.gathergrid.enumerations;
+package com.mehdi.gathergrid.domain.enumerations;
 
 public enum TicketType {
     GENERAL("General Admission"), VIP("VIP Pass"),

@@ -1,4 +1,4 @@
-package com.mehdi.gathergrid.enumerations;
+package com.mehdi.gathergrid.domain.enumerations;
 
 public enum Category {
     MUSIC("Music"), SPORTS("Sports"), ARTS("Arts"),

@@ -1,4 +1,4 @@
-package com.mehdi.gathergrid.models;
+package com.mehdi.gathergrid.domain.models;
 
 import jakarta.persistence.*;
 import lombok.Getter;

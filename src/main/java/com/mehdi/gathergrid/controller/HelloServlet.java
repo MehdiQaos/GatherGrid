@@ -1,7 +1,10 @@
-package com.mehdi.gathergrid;
+package com.mehdi.gathergrid.controller;
 
 import java.io.*;
 
+import com.mehdi.gathergrid.domain.models.Category;
+import com.mehdi.gathergrid.repository.CategoryRepository;
+import com.mehdi.gathergrid.service.CategoryService;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
@@ -21,8 +24,5 @@ public class HelloServlet extends HttpServlet {
         out.println("<html><body>");
         out.println("<h1>" + message + "</h1>");
         out.println("</body></html>");
-    }
-
-    public void destroy() {
     }
 }

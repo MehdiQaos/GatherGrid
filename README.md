@@ -20,6 +20,7 @@ To run the GatherGrid project, you will need the following dependencies:
 - `jakarta.jakartaee-api: 10.0.0`
 - `Hibernate-core: 6.2.4.Final`
 - `mysql-connector-java: 8.0.33`
+- `jakarta.servlet-api: 6.0.0`
 
 ## Jakarta EE Application Server
 

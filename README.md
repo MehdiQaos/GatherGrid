@@ -1,25 +1,38 @@
 # GatherGrid
-events management website
+*An Events Management Website*
 
-UML:
-https://drive.google.com/file/d/1ukgltu4HXmmiBe9fbt0DVx3ulb6cAhrv/view?usp=sharing
+## Documentation
 
-RDBMS: MYSQL
+This document provides details on the initial setup and configuration for the first part of the GatherGrid project. GatherGrid is a website that utilizes technologies such as Jakarta EE, JSP, Hibernate, Servlet, and other related technologies.
 
-db: gathergriddb
+### UML Diagram
+You can access the UML diagram for this project [here](https://drive.google.com/file/d/1ukgltu4HXmmiBe9fbt0DVx3ulb6cAhrv/view?usp=sharing).
 
-Jakarta EE 10 full profile
+### Tools and Technologies
 
-Jakarta EE implementation: GlassFish 7.0.9
+- **Build Tool:** Maven
+- **Relational Database Management System (RDBMS):** MySQL
 
-ORM provider: Hibernate 6.2.4
+## Dependencies
 
-JPA 3.1.0
+To run the GatherGrid project, you will need the following dependencies:
 
-to run:
+- `jakarta.jakartaee-api: 10.0.0`
+- `Hibernate-core: 6.2.4.Final`
+- `mysql-connector-java: 8.0.33`
 
-add glassfish path
+## Jakarta EE Application Server
 
-create the database: gathergriddb
+GatherGrid is designed to run on GlassFish 7.0.9. Make sure to set up your environment with the following configuration:
 
-add the database config in src\main\resources\META-INF\persistence.xml
+- **Database Name:** gathergriddb
+
+## Getting Started
+
+To get the project up and running, follow these steps:
+
+1. Install Maven dependencies.
+2. Download GlassFish 7.0.9 and unzip it.
+3. Add the GlassFish path to your server configuration in your Integrated Development Environment (IDE).
+4. Create a database and specify the database name, username, and password in the `persistence.xml` file.
+5. Run the project from your IDE.
